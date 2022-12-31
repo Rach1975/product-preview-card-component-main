@@ -137,6 +137,8 @@ button {
   padding: 1rem;
   border-radius: 5px;
   justify-content: center;
+  gap: 10px;
+  font-weight: bold;
 }
 
 button:is(:hover,:active) {
