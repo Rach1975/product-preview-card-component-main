@@ -57,3 +57,5 @@ How to deploy website on Github to make svgs visible?
 ## Acknowledgments
 
 This is my first time actually to write frontend codes so I stumbled upon things. Kevin's video really did help me out figuring out several difficult points.
+
+Thanks to [バレンタイン 😈](https://www.frontendmentor.io/profile/vcarames) for helping me out in improving accessibility!

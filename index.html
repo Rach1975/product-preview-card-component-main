@@ -23,38 +23,48 @@
 </head>
 <body>
 
-  <div class="card">
-    <picture>
-      <source srcset="images/image-product-desktop.jpg" media="(min-width: 600px)">
-      <img src="images/image-product-mobile.jpg">
-    </picture>
-
-    <div class="words">
-      <p class="category">Perfume</p>
+  <main>
+    <article class="card">
+      <picture>
+        <source srcset="images/image-product-desktop.jpg" media="(min-width: 600px)">
+        <img src="images/image-product-mobile.jpg" alt="A golden bottle of Gabrielle Essence Eau De Parfum perfume lying between leaves.">
+      </picture>
   
-      <h1 class="name">Gabrielle Essence Eau De Parfum</h1>
+      <div class="words">
+        <p class="category">Perfume</p>
     
-      <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
-        Perfumer-Creator for the House of CHANEL.</p>
-    
-      <div class="priceset">
-        <p class="price-now">$149.99</p>
-        <p class="price-before">$169.99</p>
-      </div>
+        <h1 class="name">Gabrielle Essence Eau De Parfum</h1>
       
-      <button>
-        <img src="./images/icon-cart.svg">
-        Add to Cart
-      </button>
+        <p>A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+          Perfumer-Creator for the House of CHANEL.</p>
+      
+        <div class="priceset">
+          <p class="price-now">
+            <span class="visually-hidden">Current price is</span>
+            $149.99
+          </p>
+          <p>
+            <span class="visually-hidden">Previous price was</span>
+            <del>$169.99</del>
+          </p>
+        </div>
+        
+        <button>
+          <img src="./images/icon-cart.svg" alt="A shopping cart">
+          Add to Cart
+        </button>
+      </div>
+       
+    </article>
+  </main>
+  
+  
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.frontendmentor.io/profile/Rach1975">Rach1975</a>.
     </div>
-     
-  </div>
+  </footer>
   
-  
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
 </body>
 </html>
