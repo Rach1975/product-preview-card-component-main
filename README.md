@@ -33,6 +33,8 @@ Users should be able to:
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
+## My Process
+
 ### Built with
 
 - Semantic HTML5 markup
@@ -43,6 +45,10 @@ Users should be able to:
 ### Useful resources
 
 - [Kevin Powell's Youtube](https://www.youtube.com/watch?v=B2WL6KkqhLQ)
+
+### Problems to follow
+
+How to deploy website on Github to make svgs visible?
 
 ## Author
 
